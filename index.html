@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
     <title>Calculator</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="title">Calculator App</h1>
     <div clas="container">
-        <br>
+      <br />
 
-        <table>
-            <tr>
-                <td colspan="3"></td>
-            </tr>
-        </table>
-       
+      <table>
+        <tr>
+          <td colspan="3">
+            <input type="text" id="result" class="screen" />
+          </td>
+          <td>
+          <input type="button" value="C" onclick="clearScreen()" class="clear"/>
+        </td>
+        </tr>
+      </table>
     </div>
-</body>
+  </body>
 
-<script src="./assets/script.js"></script>
+  <script src="./assets/script.js"></script>
 </html>
