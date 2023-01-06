@@ -25,3 +25,18 @@
     padding: 10px;
     margin: auto;
 }
+
+.button {
+    height: 60px;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #c4c4c4;
+    background-color: transparent;
+    font-size: 2rem;
+    color: #333;
+    background-image: linear-gradient(to bottom, transparent, transparent 50%, rgba(0, 0, 0, 0.4));
+    /* box-shadow: ; */
+    text-shadow: 0 1px rgba(255, 255, 255, .4);
+}
+
